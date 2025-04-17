@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Application Properties with API Keys ###
+src/main/resources/application-local.properties
+src/main/resources/application-dev.properties
+src/main/resources/application-prod.properties
+
+# Keep the template file but ignore actual configuration files with API keys
+# application.properties is kept as a template with placeholder values
